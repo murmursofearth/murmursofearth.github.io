@@ -21575,27 +21575,7 @@ Header Font Family
         transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1); }
       .object-custom-menu li.has-mega-menu > a.active::after {
         content: "\f106"; }
-    .object-custom-menu li.has-mega-menu .object-submenu {
-      display: none;
-      padding: 0;
-      margin: 0;
-      list-style: none;
-      margin-top: 30px;
-      margin-bottom: 30px; }
-      .object-custom-menu li.has-mega-menu .object-submenu li.title {
-        font-weight: 700;
-        line-height: 1.5;
-        text-transform: uppercase;
-        font-size: 14px;
-        color: #fff;
-        margin: 0 0 18px; }
-      .object-custom-menu li.has-mega-menu .object-submenu li a {
-        padding-top: 10px;
-        padding-bottom: 10px;
-        display: block; }
-        .object-custom-menu li.has-mega-menu .object-submenu li a span {
-          font-size: 14px;
-          color: #999999; }
+  
 
 /* ========================
     Header Broadsheets
