@@ -21451,7 +21451,6 @@ Header Font Family
   background: rgba(0, 0, 0, 0.9);
   visibility: hidden;
   opacity: 0;
-  cursor: url(img/icons/light-close.png) 16 16, pointer;
   -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
   -o-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
   transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
@@ -21540,42 +21539,30 @@ Header Font Family
   margin: 0;
   list-style: none;
   margin: 20px 40px 30px; }
-  .object-custom-menu li.has-mega-menu {
-    position: relative;
-    border-top: 1px solid transparent;
-    border-color: rgba(255, 255, 255, 0.15); }
-    .object-custom-menu li.has-mega-menu:first-child {
-      border: 0 none; }
-    .object-custom-menu li.has-mega-menu > a {
+
+/* =======================
+      Mobile menu
+==========================*/
+.object-custom-menu li.mobile-menu{
+  position:relative;
+  border-top: 1px solid transparent;
+  border-color: rgba(255, 255, 255, 0.15); }
+
+.object-custom-menu li.mobile-menu:first-child {
+    border: 0 none; }
+
+
+    .object-custom-menu li.mobile-menu a {
       padding-top: 19px;
       padding-bottom: 19px;
       display: block;
       position: relative; }
-      .object-custom-menu li.has-mega-menu > a span {
+      .object-custom-menu li.mobile-menu > a span {
         font-size: 14px;
         color: #999999; }
-      .object-custom-menu li.has-mega-menu > a::after {
-        position: absolute;
-        top: 50%;
-        right: 0;
-        width: 40px;
-        height: 40px;
-        background: rgba(255, 255, 255, 0.1);
-        color: #fff;
-        text-align: center;
-        line-height: 40px;
-        -webkit-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-        transform: translateY(-50%);
-        content: "\f107";
-        font-family: Font Awesome\ 5 Free;
-        font-weight: 900;
-        -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
-        -o-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
-        transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1); }
-      .object-custom-menu li.has-mega-menu > a.active::after {
-        content: "\f106"; }
-  
+
+
+
 
 /* ========================
     Header Broadsheets
