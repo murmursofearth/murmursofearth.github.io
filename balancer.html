@@ -46,7 +46,7 @@
     <!--/ Page Loader -->
 
     <!-- Page Transitions -->
-    <div class="nayla-page-transition page-over">
+    <div class="nayla-page-transition overlay up">
 
     </div>
     <!-- Page Transitions -->
@@ -74,8 +74,9 @@
                         <!-- Site Logo -->
                         <div class="site-logo">
 
-                            <img alt="Site Logo (Dark)" class="dark-logo" src="img/site-logo-type-dark.gif">
-                            <img alt="Site Logo (Light)" class="light-logo" src="img/site-logo-type-light.gif">
+                            <a href="index.html"><img alt="Site Logo (Dark)" class="dark-logo" src="img/site-logo-type-dark.gif"></a>
+                            <a href="index.html"><img alt="Site Logo (Light)" class="light-logo" src="img/site-logo-type-light.gif"></a>
+
 
                         </div>
                         <!--/ Site Logo -->
@@ -83,8 +84,8 @@
                         <!-- Sticky Logo -->
                         <div class="sticky-logo">
 
-                            <img alt="Sticky Logo (Dark)" class="dark-logo" src="img/site-logo-type-dark.gif">
-                            <img alt="Sticky Logo (Light)" class="sticky-light-logo" src="img/site-logo-type-light.gif">
+                            <a href="index.html"><img alt="Sticky Logo (Dark)" class="dark-logo" src="img/site-logo-type-dark.gif"></a>
+                            <a href="index.html"><img alt="Sticky Logo (Light)" class="sticky-light-logo" src="img/site-logo-type-light.gif"></a>
 
                         </div>
                         <!--/ Sticky Logo -->
@@ -209,71 +210,57 @@
 
 
         <!-- Main -->
-        <main id="primary" class="site-main project-page" data-barba="container" data-barba-namespace="project-video" style="--mainBackground: #ffffff;--mainColor: #000">
+        <main id="primary" class="site-main project-page" data-barba="container" data-barba-namespace="project-no-image" style="--mainBackground: #ffffff">
+
+
 
             <!-- Project Header -->
-            <div class="project-page-header video">
+            <div class="project-page-header no-image">
 
                 <div class="wrapper">
 
-                    <!-- Project Page -->
-                    <div class="project-top">
+                    <div class="c-col-12">
 
                         <!-- Project Title -->
                         <div class="project-title">
-
-                            <h1 class="md-title has-anim-text charsUp">Magritte balancer</h1>
-
+                            <h1 class="md-title has-anim-text charsUp" data-stagger=0.03 data-duration=2.5>Magritte Balancer</h1>
                         </div>
-                        <!--/Project Tittle -->
-
-                        <!-- Project Category -->
-                        <div class="project-category text-h6 has-anim-text wordsUp">Clay Craft</div>
-                        <!--/Project Category -->
+                        <!--/Project Title -->
 
                     </div>
-                    <!--/Project Page -->
 
-                    <!-- Project Video -->
-                    <div class="project-video has-anim maskUp">
+                    <div class="c-col-6 sm-12">
 
-                        <!-- Video -->
-                        <div class="nayla-video n-youtube cursor-play play-lightbox" data-play="WATCH" data-controls="play progress" data-autoplay=true data-muted=true data-loop=true>
-
-                            <div class="n-video" data-plyr-provider="youtube" data-plyr-embed-id="x1GY_l0u-is"></div>
-
-                        </div>
-                        <!--/ Video -->
-
-
-                    </div>
-                    <!--/Project Video -->
-
-                    <!-- Project Meta -->
-                    <div class="project-meta">
-
-                        <!-- Text Wrapper -->
                         <div class="text-wrapper">
+
+                            <p class="has-anim-text linesUp">by Junjun
+                               
+                            </p>
+
+
+                        </div>
+
+                    </div>
+
+                    <div class="c-col-6 sm-12">
+
+
+                        <!-- Project Meta -->
+                        <div class="project-meta">
+
 
                             <p class="has-anim-text linesUp">
-                                Magritte balancer in nature 
-                                <br>with homemade package.
-                                
-                            </p>
+
+                                The Magritte balancer in wild nature
+                                with a homemade package.</p>
 
                         </div>
-                        <!--/Text Wrapper -->
+                        <!--/Project Meta -->
 
-                        <!-- Text Wrapper -->
-                        <div class="text-wrapper">
-                            <p class="text-h3 no-margin has-anim-text charsUp">Junjun
-                            </p>
-                        </div>
-                        <!--/Text Wrapper -->
+                        <!-- Project Button -->
+                        <div class="project-button has-anim maskUp">
 
-                      
-
-                        <!-- Nayla Button -->
+                            <!-- Nayla Button -->
                         <div class="nayla-button hide-mobile has-anim slideUp">
 
                             <div class="nayla-button underline icon-right" data-icon="arrow_outward">
@@ -286,19 +273,28 @@
                         </div>
                         <!--/Nayla Button -->
 
+                        </div>
+                        <!--/Project Button -->
+
                     </div>
-                    <!--/Project Meta -->
 
                 </div>
 
+                 <!-- Empty Column (For Spacing) -->
+                  <div class="c-col-3 hide-mobile"><br></div>
+                 <!--/ Empty Column (For Spacing) -->
+
             </div>
             <!--/Project Header -->
+
+           
+
 
 
             <div class="wrapper">
 
 
-                <div class="c-col-6 sm-12 has-parallax" data-parallax-speed=20>
+                <div class="c-col-6 sm-12">
 
                     <!-- Single Image -->
                     <div class="single-image">
