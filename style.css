@@ -1723,7 +1723,7 @@ span.header-holder {
 
 .site-branding {
     display: block;
-    width: 100px;
+    width: 80px;
     position: relative
 }
 
@@ -10010,7 +10010,7 @@ button.plyr__control.plyr__control--overlaid .nayla-player-control {
 
 .nlv .plyr__video-wrapper {
     width: 100%;
-    height: 80%;
+    height: 100%;
     opacity: 0;
     -webkit-transition: opacity .5s ease-out .2s;
     -o-transition: opacity .5s ease-out .2s;
